@@ -3,7 +3,7 @@
 # Input:
 # n = 700 m = 750 Output: 2
 
-n = 700
-m = 750
-
-print (round((n+m)/n))
+n = int(input("введите n "))
+m = int(input("введите m "))
+d=((m//-n))
+print (-d)

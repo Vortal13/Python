@@ -6,5 +6,10 @@
 n = 20
 m = 21
 z = 22
+x=2
 
-print (round((n+m+z)/2))
+s1 = ( n + x - 1)//x
+s2 = ( m + x - 1)//x
+s3 = ( z + x - 1)//x
+s = s1 + s2 + s3
+print (s)
