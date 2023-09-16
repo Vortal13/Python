@@ -15,7 +15,7 @@ def rhythm(words):
     for i in words:
         count = 0
         for j in i:
-            if j == 'а' or j == 'a':
+            if j in 'ауеоэияю' or j == 'a':
                 count +=1
         list_1.append(count)
     print (list_1)
